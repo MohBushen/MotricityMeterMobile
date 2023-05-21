@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8F78CEC2A1A5252004CE1FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F78CEB2A1A5252004CE1FA /* AppDelegate.swift */; };
+		D8F78CEE2A1A5252004CE1FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F78CED2A1A5252004CE1FA /* SceneDelegate.swift */; };
+		D8F78CF02A1A5252004CE1FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F78CEF2A1A5252004CE1FA /* ViewController.swift */; };
+		D8F78CF32A1A5252004CE1FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F78CF12A1A5252004CE1FA /* Main.storyboard */; };
+		D8F78CF52A1A5253004CE1FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F78CF42A1A5253004CE1FA /* Assets.xcassets */; };
+		D8F78CF82A1A5253004CE1FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F78CF62A1A5253004CE1FA /* LaunchScreen.storyboard */; };
+		D8F78D032A1A5253004CE1FA /* MotricityMeterMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F78D022A1A5253004CE1FA /* MotricityMeterMobileTests.swift */; };
+		D8F78D0D2A1A5253004CE1FA /* MotricityMeterMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F78D0C2A1A5253004CE1FA /* MotricityMeterMobileUITests.swift */; };
+		D8F78D0F2A1A5253004CE1FA /* MotricityMeterMobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F78D0E2A1A5253004CE1FA /* MotricityMeterMobileUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8F78CFF2A1A5253004CE1FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8F78CE02A1A5251004CE1FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8F78CE72A1A5252004CE1FA;
+			remoteInfo = MotricityMeterMobile;
+		};
+		D8F78D092A1A5253004CE1FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8F78CE02A1A5251004CE1FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8F78CE72A1A5252004CE1FA;
+			remoteInfo = MotricityMeterMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8F78CE82A1A5252004CE1FA /* MotricityMeterMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotricityMeterMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F78CEB2A1A5252004CE1FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8F78CED2A1A5252004CE1FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D8F78CEF2A1A5252004CE1FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8F78CF22A1A5252004CE1FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8F78CF42A1A5253004CE1FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8F78CF72A1A5253004CE1FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8F78CF92A1A5253004CE1FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8F78CFE2A1A5253004CE1FA /* MotricityMeterMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotricityMeterMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F78D022A1A5253004CE1FA /* MotricityMeterMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotricityMeterMobileTests.swift; sourceTree = "<group>"; };
+		D8F78D082A1A5253004CE1FA /* MotricityMeterMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotricityMeterMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F78D0C2A1A5253004CE1FA /* MotricityMeterMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotricityMeterMobileUITests.swift; sourceTree = "<group>"; };
+		D8F78D0E2A1A5253004CE1FA /* MotricityMeterMobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotricityMeterMobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8F78CE52A1A5252004CE1FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F78CFB2A1A5253004CE1FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F78D052A1A5253004CE1FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8F78CDF2A1A5251004CE1FA = {
+			isa = PBXGroup;
+			children = (
+				D8F78CEA2A1A5252004CE1FA /* MotricityMeterMobile */,
+				D8F78D012A1A5253004CE1FA /* MotricityMeterMobileTests */,
+				D8F78D0B2A1A5253004CE1FA /* MotricityMeterMobileUITests */,
+				D8F78CE92A1A5252004CE1FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8F78CE92A1A5252004CE1FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8F78CE82A1A5252004CE1FA /* MotricityMeterMobile.app */,
+				D8F78CFE2A1A5253004CE1FA /* MotricityMeterMobileTests.xctest */,
+				D8F78D082A1A5253004CE1FA /* MotricityMeterMobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8F78CEA2A1A5252004CE1FA /* MotricityMeterMobile */ = {
+			isa = PBXGroup;
+			children = (
+				D8F78CEB2A1A5252004CE1FA /* AppDelegate.swift */,
+				D8F78CED2A1A5252004CE1FA /* SceneDelegate.swift */,
+				D8F78CEF2A1A5252004CE1FA /* ViewController.swift */,
+				D8F78CF12A1A5252004CE1FA /* Main.storyboard */,
+				D8F78CF42A1A5253004CE1FA /* Assets.xcassets */,
+				D8F78CF62A1A5253004CE1FA /* LaunchScreen.storyboard */,
+				D8F78CF92A1A5253004CE1FA /* Info.plist */,
+			);
+			path = MotricityMeterMobile;
+			sourceTree = "<group>";
+		};
+		D8F78D012A1A5253004CE1FA /* MotricityMeterMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8F78D022A1A5253004CE1FA /* MotricityMeterMobileTests.swift */,
+			);
+			path = MotricityMeterMobileTests;
+			sourceTree = "<group>";
+		};
+		D8F78D0B2A1A5253004CE1FA /* MotricityMeterMobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8F78D0C2A1A5253004CE1FA /* MotricityMeterMobileUITests.swift */,
+				D8F78D0E2A1A5253004CE1FA /* MotricityMeterMobileUITestsLaunchTests.swift */,
+			);
+			path = MotricityMeterMobileUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8F78CE72A1A5252004CE1FA /* MotricityMeterMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8F78D122A1A5253004CE1FA /* Build configuration list for PBXNativeTarget "MotricityMeterMobile" */;
+			buildPhases = (
+				D8F78CE42A1A5252004CE1FA /* Sources */,
+				D8F78CE52A1A5252004CE1FA /* Frameworks */,
+				D8F78CE62A1A5252004CE1FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotricityMeterMobile;
+			productName = MotricityMeterMobile;
+			productReference = D8F78CE82A1A5252004CE1FA /* MotricityMeterMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8F78CFD2A1A5253004CE1FA /* MotricityMeterMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8F78D152A1A5253004CE1FA /* Build configuration list for PBXNativeTarget "MotricityMeterMobileTests" */;
+			buildPhases = (
+				D8F78CFA2A1A5253004CE1FA /* Sources */,
+				D8F78CFB2A1A5253004CE1FA /* Frameworks */,
+				D8F78CFC2A1A5253004CE1FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8F78D002A1A5253004CE1FA /* PBXTargetDependency */,
+			);
+			name = MotricityMeterMobileTests;
+			productName = MotricityMeterMobileTests;
+			productReference = D8F78CFE2A1A5253004CE1FA /* MotricityMeterMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8F78D072A1A5253004CE1FA /* MotricityMeterMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8F78D182A1A5253004CE1FA /* Build configuration list for PBXNativeTarget "MotricityMeterMobileUITests" */;
+			buildPhases = (
+				D8F78D042A1A5253004CE1FA /* Sources */,
+				D8F78D052A1A5253004CE1FA /* Frameworks */,
+				D8F78D062A1A5253004CE1FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8F78D0A2A1A5253004CE1FA /* PBXTargetDependency */,
+			);
+			name = MotricityMeterMobileUITests;
+			productName = MotricityMeterMobileUITests;
+			productReference = D8F78D082A1A5253004CE1FA /* MotricityMeterMobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8F78CE02A1A5251004CE1FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D8F78CE72A1A5252004CE1FA = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					D8F78CFD2A1A5253004CE1FA = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D8F78CE72A1A5252004CE1FA;
+					};
+					D8F78D072A1A5253004CE1FA = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D8F78CE72A1A5252004CE1FA;
+					};
+				};
+			};
+			buildConfigurationList = D8F78CE32A1A5251004CE1FA /* Build configuration list for PBXProject "MotricityMeterMobile" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8F78CDF2A1A5251004CE1FA;
+			productRefGroup = D8F78CE92A1A5252004CE1FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8F78CE72A1A5252004CE1FA /* MotricityMeterMobile */,
+				D8F78CFD2A1A5253004CE1FA /* MotricityMeterMobileTests */,
+				D8F78D072A1A5253004CE1FA /* MotricityMeterMobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8F78CE62A1A5252004CE1FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F78CF82A1A5253004CE1FA /* LaunchScreen.storyboard in Resources */,
+				D8F78CF52A1A5253004CE1FA /* Assets.xcassets in Resources */,
+				D8F78CF32A1A5252004CE1FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F78CFC2A1A5253004CE1FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F78D062A1A5253004CE1FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8F78CE42A1A5252004CE1FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F78CF02A1A5252004CE1FA /* ViewController.swift in Sources */,
+				D8F78CEC2A1A5252004CE1FA /* AppDelegate.swift in Sources */,
+				D8F78CEE2A1A5252004CE1FA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F78CFA2A1A5253004CE1FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F78D032A1A5253004CE1FA /* MotricityMeterMobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F78D042A1A5253004CE1FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F78D0D2A1A5253004CE1FA /* MotricityMeterMobileUITests.swift in Sources */,
+				D8F78D0F2A1A5253004CE1FA /* MotricityMeterMobileUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8F78D002A1A5253004CE1FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8F78CE72A1A5252004CE1FA /* MotricityMeterMobile */;
+			targetProxy = D8F78CFF2A1A5253004CE1FA /* PBXContainerItemProxy */;
+		};
+		D8F78D0A2A1A5253004CE1FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8F78CE72A1A5252004CE1FA /* MotricityMeterMobile */;
+			targetProxy = D8F78D092A1A5253004CE1FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8F78CF12A1A5252004CE1FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8F78CF22A1A5252004CE1FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8F78CF62A1A5253004CE1FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8F78CF72A1A5253004CE1FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8F78D102A1A5253004CE1FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8F78D112A1A5253004CE1FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8F78D132A1A5253004CE1FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z9X887LA5C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MotricityMeterMobile/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Silognal-Labs..MotricityMeterMobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8F78D142A1A5253004CE1FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z9X887LA5C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MotricityMeterMobile/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Silognal-Labs..MotricityMeterMobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D8F78D162A1A5253004CE1FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z9X887LA5C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Silognal-Labs..MotricityMeterMobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotricityMeterMobile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MotricityMeterMobile";
+			};
+			name = Debug;
+		};
+		D8F78D172A1A5253004CE1FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z9X887LA5C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Silognal-Labs..MotricityMeterMobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotricityMeterMobile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MotricityMeterMobile";
+			};
+			name = Release;
+		};
+		D8F78D192A1A5253004CE1FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z9X887LA5C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Silognal-Labs..MotricityMeterMobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MotricityMeterMobile;
+			};
+			name = Debug;
+		};
+		D8F78D1A2A1A5253004CE1FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z9X887LA5C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Silognal-Labs..MotricityMeterMobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MotricityMeterMobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8F78CE32A1A5251004CE1FA /* Build configuration list for PBXProject "MotricityMeterMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F78D102A1A5253004CE1FA /* Debug */,
+				D8F78D112A1A5253004CE1FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8F78D122A1A5253004CE1FA /* Build configuration list for PBXNativeTarget "MotricityMeterMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F78D132A1A5253004CE1FA /* Debug */,
+				D8F78D142A1A5253004CE1FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8F78D152A1A5253004CE1FA /* Build configuration list for PBXNativeTarget "MotricityMeterMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F78D162A1A5253004CE1FA /* Debug */,
+				D8F78D172A1A5253004CE1FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8F78D182A1A5253004CE1FA /* Build configuration list for PBXNativeTarget "MotricityMeterMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F78D192A1A5253004CE1FA /* Debug */,
+				D8F78D1A2A1A5253004CE1FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8F78CE02A1A5251004CE1FA /* Project object */;
+}
